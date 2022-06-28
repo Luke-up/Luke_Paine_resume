@@ -7,7 +7,7 @@
     background-image: url(images/dots2.svg);
     background-size: 1.5%;
     height: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
 }
 /*Styling sets the colour and shape of the blue buttons on both views*/
 .blueBlock {
@@ -19,7 +19,7 @@
 }
 /*Styling sets the padding for each column on the welcome view*/
 .blueBlockColumn {
-    padding: 20px 40px 20px 40px;
+    padding: 1em 2em 1em 2em;
 }
 /*All h3 and h1 elements have a custom styled font and colour*/
 h3,
