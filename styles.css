@@ -1,0 +1,44 @@
+/*Style set the modal to an initial display of none in order to hide it*/
+#modal {
+    display: none;
+}
+/*Styling sets the backround image to repeat*/
+.openBody {
+    background-image: url(images/dots2.svg);
+    background-size: 1.5%;
+    height: 100%;
+    padding-bottom: 70px;
+}
+/*Styling sets the colour and shape of the blue buttons on both views*/
+.blueBlock {
+    background-color: rgba(227, 231, 251, 0.639);
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px #B6B6B6;
+    border: solid rgba(227, 227, 227, 0.995) 3px;
+    border-radius: 5px;
+}
+/*Styling sets the padding for each column on the welcome view*/
+.blueBlockColumn {
+    padding: 20px 40px 20px 40px;
+}
+/*All h3 and h1 elements have a custom styled font and colour*/
+h3,
+h1 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: rgb(17, 60, 145)
+}
+/*All paragraph element have custom styling*/
+p {
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(7, 32, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/*The styling removes the bullet points*/
+ul {
+    list-style: none;
+}
+/*The styling replaces the vivid blue of the hyperlinks*/
+a{
+    color: rgb(17, 60, 145)
+}
